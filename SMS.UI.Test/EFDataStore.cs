@@ -1,9 +1,4 @@
 ﻿using SMS.Repository;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SMS.UI.Test
 {
@@ -27,7 +22,5 @@ namespace SMS.UI.Test
         {
             _DataContext = null;
         }
-
-
     }
 }

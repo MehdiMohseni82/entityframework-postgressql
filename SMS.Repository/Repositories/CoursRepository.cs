@@ -3,8 +3,6 @@ using SMS.Service.IRepositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SMS.Repository.Repositories
 {
@@ -14,7 +12,6 @@ namespace SMS.Repository.Repositories
         public CoursRepository(SMSDatabaseEntities dc)
             : base(dc)
         {
-
         }
         public void Add(Cours entity)
         {

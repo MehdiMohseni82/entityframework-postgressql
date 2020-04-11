@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SMS.Service.Service
+﻿namespace SMS.Service.Service
 {
     public abstract class ServiceBase
     {
@@ -47,6 +41,5 @@ namespace SMS.Service.Service
 
 
         #endregion
-
     }
 }

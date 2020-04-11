@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Data.Common;
 using XMen.Query.Enums;
 
@@ -10,7 +9,6 @@ namespace XMen.Query
     {
         // The list in this container will contain lists of clauses, and 
         // forms a where statement alltogether!
-
         public int ClauseLevels
         {
             get { return this.Count; }
@@ -267,7 +265,5 @@ namespace XMen.Query
             }
             return result;
         }
-
     }
-
 }

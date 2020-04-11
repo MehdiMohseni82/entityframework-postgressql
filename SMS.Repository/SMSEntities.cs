@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SMS.Repository
+﻿namespace SMS.Repository
 {
     using SMS.Model;
-    using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
 
@@ -25,5 +18,4 @@ namespace SMS.Repository
 
         public virtual DbSet<Cours> Courses { get; set; }
     }
-
 }

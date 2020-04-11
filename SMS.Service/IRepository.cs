@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using XMen.Query;
 
 namespace SMS.Service
@@ -12,16 +9,23 @@ namespace SMS.Service
         T CreateObject();
 
         T FindBy(Guid id);
+
         IEnumerable<T> FindAll();
+
         IEnumerable<T> FindAll(int index, int count);
+
         IEnumerable<T> FindBy(Query query);
+
         IEnumerable<T> FindBy(Query query, int index, int count);
 
         int CountAll();
+
         int CountBy(Query query);
 
         void Add(T entity);
+
         void Update(T entity);
+
         void Remove(T entity);
     }
 }

@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Text;
 using XMen.Query.Enums;
 
 namespace XMen.Query

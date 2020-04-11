@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Text;
-
 namespace XMen.Query
 {
     public class SqlLiteral
@@ -20,5 +16,4 @@ namespace XMen.Query
             _value = value;
         }
     }
-
 }
